@@ -3,4 +3,6 @@ class Shop
   belongs_to :user
 
   field :shop_name, type: String
+
+  validates_presence_of :shop_name
 end

@@ -13464,3 +13464,148 @@ Completed 200 OK in 7ms (Views: 6.2ms)
 Processing by UsersController#index as HTML
   Rendered users/index.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/users" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 20ms (Views: 19.1ms)
+
+
+Started GET "/assets/scaffolds.self-6d0213e6078fb99856e796e3e432dab119e03b7abf15a3908314bf900d731b21.css?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/shops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/shops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 218.102.236.157 at 2020-01-05 12:37:18 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 6.3ms)
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 6.4ms)
+Processing by UsersController#create as JSON
+  Parameters: {"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}
+Completed 400 Bad Request in 0ms
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 6.8ms)
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 201 Created in 11ms (Views: 2.0ms)
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 6.9ms)
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 201 Created in 11ms (Views: 2.2ms)
+
+
+Started GET "/users/5e0c96e40674f4672e61cd2e/shops.json" for 218.102.236.157 at 2020-01-05 17:19:43 +0000
+Cannot render console from 218.102.236.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShopsController#index as JSON
+  Parameters: {"user_id"=>"5e0c96e40674f4672e61cd2e"}
+  Rendered shops/_shop.json.jbuilder (0.8ms)
+  Rendered shops/_shop.json.jbuilder (0.2ms)
+  Rendered shops/_shop.json.jbuilder (0.3ms)
+  Rendered shops/_shop.json.jbuilder (0.2ms)
+  Rendered shops/index.json.jbuilder (13.0ms)
+Completed 200 OK in 41ms (Views: 19.7ms)
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 8.0ms)
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}}
+  Rendered users/show.json.jbuilder (0.3ms)
+Completed 201 Created in 12ms (Views: 2.2ms)
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 6.9ms)
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 201 Created in 11ms (Views: 2.2ms)
+Processing by UsersController#update as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}, "id"=>"5e121f220674f434a9a6ebfd"}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 200 OK in 4ms (Views: 1.3ms)
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 7.2ms)
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 201 Created in 11ms (Views: 2.1ms)
+Processing by UsersController#update as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}, "id"=>"5e1220660674f4353e98ffc7"}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 200 OK in 5ms (Views: 1.6ms)
+Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"5e1220660674f4353e98ffc8"}
+Completed 204 No Content in 3ms
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 7.3ms)
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 201 Created in 11ms (Views: 2.1ms)
+Processing by UsersController#update as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}, "id"=>"5e1220740674f4354d8fc61c"}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 200 OK in 4ms (Views: 1.4ms)
+Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"5e1220740674f4354d8fc61d"}
+Completed 204 No Content in 3ms
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 6.7ms)
+Processing by UsersController#create as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 201 Created in 11ms (Views: 2.1ms)
+Processing by UsersController#update as JSON
+  Parameters: {"user"=>{"first_name"=>"ming", "last_name"=>"jai", "ages"=>18, "gender"=>"male"}, "id"=>"5e1220b20674f4356e08b370"}
+  Rendered users/show.json.jbuilder (0.2ms)
+Completed 200 OK in 4ms (Views: 1.5ms)
+Processing by UsersController#destroy as JSON
+  Parameters: {"id"=>"5e1220b20674f4356e08b371"}
+Completed 204 No Content in 3ms
+Processing by UsersController#count as HTML
+  Rendered users/count.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.4ms)

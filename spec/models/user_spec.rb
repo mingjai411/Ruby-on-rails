@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, :type => :model do
-  context "" do
+  context "check validation of model" do
     let(:first_name) {'ming'}
     let(:last_name) {'jai'}
     let(:ages) {18}
