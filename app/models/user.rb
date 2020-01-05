@@ -9,6 +9,6 @@ class User
 
   validates_presence_of :first_name
   validates_presence_of :last_name
-  validates :ages, :numericality => { :greater_than_or_equal_to => 0 }
+  validates :ages, :numericality => { only_integer: true, :greater_than_or_equal_to => 0 }
   validates_inclusion_of :gender, in: ["male", "female", "other"]
 end
